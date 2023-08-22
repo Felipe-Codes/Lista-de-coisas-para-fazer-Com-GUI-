@@ -17,10 +17,10 @@ root.title("Fazer")
 entry = tk.Entry(root, width=40)
 entry.pack(pady=10)
 
-add_button = tk.Button(root, text="Add Task", command=add_task)
+add_button = tk.Button(root, text="Adicionar tarefa", command=add_task)
 add_button.pack()
 
-remove_button = tk.Button(root, text="Remove Task", command=remove_task)
+remove_button = tk.Button(root, text="Remover Tarefa", command=remove_task)
 remove_button.pack()
 
 listbox = tk.Listbox(root, width=40)
